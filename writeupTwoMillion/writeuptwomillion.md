@@ -53,7 +53,7 @@ Após isso, o site foi carregado corretamente, confirmando que o problema era de
 
 No código-fonte da aplicação, foi encontrado o script:
 
-> */assets/js/invite.api.js*
+> */js/invite.min.api.js*
 
 Esse script continha funções JavaScript utilizada pela aplicação, como makeInviteCode().
 
