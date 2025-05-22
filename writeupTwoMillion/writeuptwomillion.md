@@ -32,6 +32,7 @@ Um **TCP SYN Scan** com o **Nmap** foi realizado para identificar as portas ativ
 Além disso, o comando `nslookup` indicava falha na resolução DNS:
 
 ```bash
+
 nslookup 2million.htb
 Server:         127.0.0.53
 Address:        127.0.0.53#53
