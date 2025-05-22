@@ -23,7 +23,7 @@ O objetivo é capturar as flags de **usuário** e **root**.
 
 ### 1. Acesso Inicial
 
-A máquina foi atribuída com o IP: `10.10.11.221`. Ao tentar acessar `http://2million.htb`, era exibida a seguinte mensagem:
+Após instalação da VPN fornecido pela plataforma `https://www.hackthebox.com/`, foi exibido um endereço IP: `10.10.11.221`. Ao utlizar esse IP no navegador, ele levava para um site com o endereço  `http://2million.htb`, e era exibida a seguinte mensagem:
 
 > *"We're having trouble finding that site"*
 
