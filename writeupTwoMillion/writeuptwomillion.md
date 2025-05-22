@@ -35,10 +35,8 @@ Além disso, o comando `nslookup` indicava falha na resolução DNS:
 nslookup 2million.htb
 Server:         127.0.0.53
 Address:        127.0.0.53#53
+server can't find 2million.htb: NXDOMAIN
 ```
-
-** server can't find 2million.htb: NXDOMAIN **
-
 ### 2. DNS SPOONFING
 
 Foi necessário adicionar uma entrada manual no arquivo localizado em /etc/hosts para simular uma resolução DNS:
