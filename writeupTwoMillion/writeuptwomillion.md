@@ -44,6 +44,8 @@ Foi necessário adicionar uma entrada manual no arquivo localizado em /etc/hosts
 
 > *10.10.11.221 2million.htb*
 
+![etchosts](https://github.com/user-attachments/assets/238e65d1-4b02-49a5-9ec5-8877f7ce04b8)
+
 Após isso, o site foi carregado corretamente, confirmando que o problema era de resolução local de nomes.
 
 
