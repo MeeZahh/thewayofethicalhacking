@@ -36,7 +36,7 @@ nslookup 2million.htb
 Server:         127.0.0.53
 Address:        127.0.0.53#53
 
-** server can't find 2million.htb: NXDOMAIN
+** server can't find 2million.htb: NXDOMAIN **
 
 ### 2. DNS SPOONFING
 
