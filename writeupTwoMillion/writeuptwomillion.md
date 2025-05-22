@@ -35,6 +35,7 @@ Além disso, o comando `nslookup` indicava falha na resolução DNS:
 nslookup 2million.htb
 Server:         127.0.0.53
 Address:        127.0.0.53#53
+```
 
 ** server can't find 2million.htb: NXDOMAIN **
 
@@ -74,15 +75,16 @@ Foi enviada uma requisição POST para o endpoint identificado:
 Host: 2million.htb*
 
 Resposta da API:
-
-> *{
+```bash
+{
   "0": 200,
   "success": 1,
   "data": {
     "code": "NlZVSkQtS0pDMVotRzFTMU8tNzlISkM=",
     "format": "encoded"
-  }
-}*
+ }
+}
+```
 
 ### 6 Base64 Decoding
 
