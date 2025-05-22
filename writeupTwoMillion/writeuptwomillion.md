@@ -14,7 +14,7 @@ O objetivo é capturar as flags de **usuário** e **root**.
 
 - [Wireshark](https://www.wireshark.org/)
 - [Burp Suite](https://portswigger.net/burp)
-- [GoBuster](https://github.com/OJ/gobuster)
+- [Ffuf](https://github.com/ffuf/ffuf)
 - [Nmap](https://nmap.org/)
 
 ---
