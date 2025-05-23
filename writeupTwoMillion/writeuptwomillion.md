@@ -112,3 +112,5 @@ Através do repeater no Burp Suite, foi feito uma requisição PUT em formato JS
 > */api/v1/admin/vpn/generate*
 
 ![image](https://github.com/user-attachments/assets/70c2dade-e406-4064-bb3a-e286649798ca)
+
+Agora, o usuário teste criado foi de usuário comum para Administrador.
