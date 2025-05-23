@@ -95,4 +95,18 @@ O valor do campo code estava codificado em Base64. Após decodificar, o resultad
 
 Este é o invite code necessário para criação de um usuário na aplicação.
 
+### 7 Fuzzing com Ffuf
 
+Após login, foi realizado fuzzing para procurar outros endpoints, onde foi encontrado um endpoint padrão /api/
+
+![image](https://github.com/user-attachments/assets/3a6c5e93-48a3-4b7f-bc96-abb0b7a3adfa)
+
+Nesse endpoint foi encontrado subendpoints. Porém o que mais chamou atenção foi o /api/v1, que mostrava um JSON com vários outros endpoints de alterações administrativas. Permitindo escalonamento de privilégio.
+
+![image](https://github.com/user-attachments/assets/084f5cf1-0e3f-435f-b7bc-55cf6fec474c)
+
+### Escalando privilégio
+
+Através do repeater no BurpSuite, foi feito uma requisição POST em formato JSON, onde foi possível alterar a conta de usuário padrão para administrativo.
+
+![image](https://github.com/user-attachments/assets/70c2dade-e406-4064-bb3a-e286649798ca)
