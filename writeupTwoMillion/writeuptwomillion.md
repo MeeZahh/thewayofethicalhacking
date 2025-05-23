@@ -107,7 +107,7 @@ Nesse endpoint foi encontrado subendpoints. Porém o que mais chamou atenção f
 
 ### Escalando privilégio
 
-Através do repeater no BurpSuite, foi feito uma requisição PUT em formato JSON, onde foi possível alterar a conta de usuário padrão para administrativo.
+Através do repeater no Burp Suite, foi feito uma requisição PUT em formato JSON, onde foi possível alterar a conta de usuário padrão para administrativo.
 
 > */api/v1/admin/vpn/generate*
 
